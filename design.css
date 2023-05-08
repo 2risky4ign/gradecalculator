@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: wheat;
+}
+
+.background{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(aesthetic.jpg);
+}
+
+#content{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;  
+    border: 2px #fff;
+    border-color: white;
+    box-shadow: 0 0 8px black;
+    width: 500px;
+    height: 500px;
+    background-color: bisque;
+}
+
+#content h1{ 
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    stroke: black;
+    stroke-width: 25%;
+    color: #000000;
+}
+
+
+#content input{
+    height: 30px;
+    width: 60%;
+    margin-top: 10px;
+
+
+}
+
+#content label{
+    font-size: 15px;
+    text-align: 10px;
+    color: black;
+}
+
+.btn {
+    outline: none;
+    border:rgba(253, 252, 252);
+    width: 50%;
+    height: 40px;
+    margin-left: 135px;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #000000;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid #a4a38b;
+
+}
